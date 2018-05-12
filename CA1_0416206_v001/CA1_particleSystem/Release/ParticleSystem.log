@@ -1,0 +1,58 @@
+﻿Build started 2018/4/15 上午 11:26:41.
+     1>Project "F:\3下\電腦動畫\HW1\CA1_0416206_v001\CA1_particleSystem\ParticleSystem.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./Config /I./Image /I./OpenGL /I./Math /I./Include /I./MassSpringSystem /I./ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp- /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Image\CBmp.cpp MassSpringSystem\BallModel.cpp MassSpringSystem\CMassSpringSystem.cpp MassSpringSystem\GoalNetModel.cpp OpenGL\CCamera.cpp Math\performanceCounter.cpp Math\stdafx.cpp Math\Vector3d.cpp MassSpringSystem\CParticle.cpp MassSpringSystem\CSpring.cpp Config\configFile.cpp OpenGL\Render_API.cpp ParticleSystemMain.cpp
+         CBmp.cpp
+         BallModel.cpp
+         CMassSpringSystem.cpp
+     1>MassSpringSystem\CMassSpringSystem.cpp(227): warning C4018: '<' : signed/unsigned mismatch
+     1>MassSpringSystem\CMassSpringSystem.cpp(502): warning C4018: '<' : signed/unsigned mismatch
+     1>MassSpringSystem\CMassSpringSystem.cpp(523): warning C4018: '<' : signed/unsigned mismatch
+     1>MassSpringSystem\CMassSpringSystem.cpp(525): warning C4018: '<' : signed/unsigned mismatch
+     1>MassSpringSystem\CMassSpringSystem.cpp(552): warning C4018: '<' : signed/unsigned mismatch
+     1>MassSpringSystem\CMassSpringSystem.cpp(696): warning C4018: '<' : signed/unsigned mismatch
+         GoalNetModel.cpp
+         CCamera.cpp
+         performanceCounter.cpp
+         stdafx.cpp
+         Vector3d.cpp
+         CParticle.cpp
+         CSpring.cpp
+         configFile.cpp
+         Render_API.cpp
+         ParticleSystemMain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\3下\電腦動畫\HW1\CA1_0416206_v001\CA1_particleSystem\Release\ParticleSystem.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\3下\電腦動畫\HW1\CA1_0416206_v001\CA1_particleSystem\Release\ParticleSystem.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\3下\電腦動畫\HW1\CA1_0416206_v001\CA1_particleSystem\Release\ParticleSystem.lib" /MACHINE:X86 /SAFESEH Release\CBmp.obj
+         Release\BallModel.obj
+         Release\CMassSpringSystem.obj
+         Release\GoalNetModel.obj
+         Release\CCamera.obj
+         Release\performanceCounter.obj
+         Release\stdafx.obj
+         Release\Vector3d.obj
+         Release\CParticle.obj
+         Release\CSpring.obj
+         Release\configFile.obj
+         Release\Render_API.obj
+         Release\ParticleSystemMain.obj
+         Generating code
+         Finished generating code
+     1>glui32.lib(glui.obj) : warning LNK4204: 'F:\3下\電腦動畫\HW1\CA1_0416206_v001\CA1_particleSystem\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_bitmap_img_data.obj) : warning LNK4204: 'F:\3下\電腦動畫\HW1\CA1_0416206_v001\CA1_particleSystem\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_bitmaps.obj) : warning LNK4204: 'F:\3下\電腦動畫\HW1\CA1_0416206_v001\CA1_particleSystem\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_button.obj) : warning LNK4204: 'F:\3下\電腦動畫\HW1\CA1_0416206_v001\CA1_particleSystem\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_checkbox.obj) : warning LNK4204: 'F:\3下\電腦動畫\HW1\CA1_0416206_v001\CA1_particleSystem\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_control.obj) : warning LNK4204: 'F:\3下\電腦動畫\HW1\CA1_0416206_v001\CA1_particleSystem\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_edittext.obj) : warning LNK4204: 'F:\3下\電腦動畫\HW1\CA1_0416206_v001\CA1_particleSystem\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_listbox.obj) : warning LNK4204: 'F:\3下\電腦動畫\HW1\CA1_0416206_v001\CA1_particleSystem\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_node.obj) : warning LNK4204: 'F:\3下\電腦動畫\HW1\CA1_0416206_v001\CA1_particleSystem\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_panel.obj) : warning LNK4204: 'F:\3下\電腦動畫\HW1\CA1_0416206_v001\CA1_particleSystem\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_spinner.obj) : warning LNK4204: 'F:\3下\電腦動畫\HW1\CA1_0416206_v001\CA1_particleSystem\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_string.obj) : warning LNK4204: 'F:\3下\電腦動畫\HW1\CA1_0416206_v001\CA1_particleSystem\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>glui32.lib(glui_window.obj) : warning LNK4204: 'F:\3下\電腦動畫\HW1\CA1_0416206_v001\CA1_particleSystem\Release\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         ParticleSystem.vcxproj -> F:\3下\電腦動畫\HW1\CA1_0416206_v001\CA1_particleSystem\Release\ParticleSystem.exe
+     1>Done Building Project "F:\3下\電腦動畫\HW1\CA1_0416206_v001\CA1_particleSystem\ParticleSystem.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.40
